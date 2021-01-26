@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class HelloWorld {
+public class practice {
     public static void main (String [] args){
         String xpathforinput= "//input[@type='text']";
         String xpathforclick= "//a[@class='searchButton]";
@@ -19,7 +19,7 @@ public class HelloWorld {
         driver.findElement(By.xpath(xpathforinput)).sendKeys("new york");
         driver.findElement(By.xpath(xpathforclick)).click();
 
-        //comment 
+        //comment
 
     }
 }
